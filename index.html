@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>날씨 불러오기</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>오늘의 날씨</h2>
+      <h3 id="name">지역</h3>
+      <ul class="api">
+        <li>
+          <img id="icon" />
+        </li>
+        <li>
+          <p id="des">날씨</p>
+          <p id="temp">기온</p>
+          <p id="wind">풍속</p>
+        </li>
+      </ul>
+      <ul class="navi">
+        <li id="now" class="on">현위치</li>
+        <li id="Seoul">서울</li>
+        <li id="Incheon">인천</li>
+        <li id="Busan">부산</li>
+        <li id="Jeju">제주</li>
+      </ul>
+    </div>
+
+    <script src="custom.js"></script>
+  </body>
+</html>
